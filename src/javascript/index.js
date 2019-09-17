@@ -1,4 +1,4 @@
 import "../sass/main.scss";
 
-console.log("hello world");
+console.log("Mike pompeo");
 let name = "firstName";
