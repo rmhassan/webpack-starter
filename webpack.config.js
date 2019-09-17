@@ -65,7 +65,5 @@ module.exports = {
     contentBase: path.resolve(__dirname, "dist"),
     publicPath: "/"
   },
-  // Default mode for Webpack is production.
-  // Depending on mode Webpcak will apply different things on final bundle. For now we don't need productions' JavaScript minifying and other thing so let's set mode to development
-  mode: "development"
+  devtool: "source-map"
 };
